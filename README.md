@@ -7,7 +7,7 @@ Just open `index.html` in a browser.
 
 ## Deploy to `Zzzznnnhhh.github.io`
 1. Create a **public** repo named exactly `Zzzznnnhhh.github.io`.
-2. Put `index.html` (+ `avatar.jpg`, `cv.pdf`) at the repo root and push:
+2. Put `index.html` (+ `avatar.jpg`) at the repo root and push:
    ```bash
    cd homepage
    git init && git add . && git commit -m "personal homepage"
@@ -21,9 +21,8 @@ Alternatively, host it in any repo and enable **Settings → Pages → Source: m
 
 ## TODO — replace placeholders
 - [ ] **`avatar.jpg`** — add your profile photo (square) to this folder (page hides it gracefully if missing).
-- [ ] **`cv.pdf`** — drop your CV here so the "CV" link works.
 - [x] **GitHub link** — set to `github.com/Zzzznnnhhh`.
-- [ ] **Google Scholar** — replace the placeholder `scholar.google.com/` with your profile URL (or remove the link).
+- [x] **Google Scholar** — linked to your profile.
 - [ ] **arXiv links** — add real paper URLs in the Publications section when available.
 - [x] **Experience dates** — StepFun starts in 2026.05; ByteDance ends in 2026.05.
 
